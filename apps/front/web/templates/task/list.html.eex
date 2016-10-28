@@ -1,0 +1,3 @@
+<%= for task <- @tasks do %>
+  <%= render "item.html", task: task %>
+<% end %>

@@ -1,0 +1,4 @@
+<div class="<%= task_class(@task) %>">
+  <span onclick="toggleHandler('<%= @task.id %>')"><%= @task.title %></span> 
+  [<a href="#" onclick="deleteHandler('<%= @task.id %>')">delete</a>]
+</div>

@@ -1,0 +1,8 @@
+<div id="list">
+  <%= render "list.html", tasks: @tasks %>
+</div>
+
+<form id="new-todo-form">
+  <input type="text" name="task-title" value="" placeholder="What do you want to do next?">
+  <button type="submit" name="button">Add</button>
+</form>
